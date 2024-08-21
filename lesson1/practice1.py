@@ -13,8 +13,9 @@ count = 0
 app = QApplication([])
 window = QWidget()
 
+
 window.setWindowTitle("Info")
-window.setGeometry(400, 300, 400, 600)
+window.setGeometry(100, 100, 450, 600)
 window.setStyleSheet("""
         background-color: white;
                      """)
