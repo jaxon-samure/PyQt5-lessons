@@ -1,10 +1,10 @@
-import os 
-os.system("clear")
 
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QPushButton, QHBoxLayout,QCheckBox
 from PyQt5.QtGui import QIcon
 from PyQt5.QtCore import Qt
 
+import os 
+os.system("clear")
 
 app = QApplication([])
 
