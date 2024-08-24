@@ -134,7 +134,7 @@ class Window(QWidget):
         
         self.q_index += 1
         if self.q_index >= len(TESTS):
-            self.questionLabel.setText(f"""Savollar tugadi ! \nTo'g'ri javoblar soni : {self.count_right}""")
+            self.questionLabel.setText(f"Savollar tugadi ! \nTo'g'ri javoblar soni : {self.count_right}")
             self.questionLabel.adjustSize()
             self.questionLabel.move(200, 200)
             self.A_variant.close()
